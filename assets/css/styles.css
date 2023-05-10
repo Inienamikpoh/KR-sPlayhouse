@@ -192,7 +192,7 @@ body.dark-theme {
   height: 30px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1022px) {
 
   .nav__menu {
     position: fixed;
@@ -749,10 +749,12 @@ body.dark-theme {
 
   .active__link {
     color: var(--title-color);
+    text-decoration: none;
   }
 
   .change_theme {
     margin-left: 3rem;
+    color: var(--text-color);
   }
 
   .dark-theme {
