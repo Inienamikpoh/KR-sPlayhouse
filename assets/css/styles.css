@@ -188,6 +188,10 @@ body.dark-theme {
   font-weight: var(--font-medium);
 }
 
+.the__logo {
+  height: 30px;
+}
+
 @media screen and (max-width: 1023px) {
 
   .nav__menu {
