@@ -856,6 +856,28 @@ body.dark-theme {
   }
 }
 
+@media screen and (min-width: 1360px) {
+  .home__container {
+    padding: 5rem 0 5rem;
+    column-gap: 0;
+  }
+
+  .home__images {
+    width: 410px;
+    margin-top: 10rem;
+    transform: translate(0rem);
+  }
+
+  .home__images .brand__img:nth-child(1) {
+    width: 450px;
+    top: -15rem;
+  }
+
+  .home__images .brand__img:nth-child(2) {
+    width: 400px;
+  }
+}
+
 /* For 2K resolutions (2048 x 1152, 2048 x 1536) */
 @media screen and (min-width: 2048px) {
   body {
